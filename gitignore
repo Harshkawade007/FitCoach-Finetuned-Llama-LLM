@@ -25,6 +25,6 @@ checkpoints/
 # OS / editor
 .DS_Store
 Thumbs.db
-.vscode/
+.vscode
 .idea/
-.claude/
+.claude
