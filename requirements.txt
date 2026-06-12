@@ -1,7 +1,5 @@
 # Data generation
 openai
-groq
-google-genai
 sentence-transformers
 numpy
 
