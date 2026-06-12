@@ -1,10 +1,5 @@
-"""
-FitCoach – polished Gradio app for Hugging Face Spaces ZeroGPU
-
-Keeps the original model/loading/streaming logic, but replaces the plain UI with a
-modern glass-card interface, stronger onboarding copy, better spacing, and a
-premium fitness-app style layout.
-"""
+# Gradio chat app for FitCoach — runs on Hugging Face Spaces with ZeroGPU.
+# Models load on CPU at startup; GPU is acquired per request inside @spaces.GPU.
 
 import os
 from threading import Thread
