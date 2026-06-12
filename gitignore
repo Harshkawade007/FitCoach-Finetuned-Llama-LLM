@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data — full dataset lives on HF Hub, only the small sample is committed
+data/conversations.jsonl
+data/splits/
+data/failures/
+*.jsonl
+!data/sample_conversations.jsonl
+
+# Model weights — live on HF Hub
+*.safetensors
+*.bin
+*.gguf
+checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.claude/

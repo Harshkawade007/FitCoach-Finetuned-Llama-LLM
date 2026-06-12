@@ -1,0 +1,16 @@
+# Data generation
+openai
+groq
+google-genai
+sentence-transformers
+numpy
+
+# Training (QLoRA fine-tuning)
+unsloth
+trl
+datasets
+torch
+
+# Model hub
+huggingface_hub
+transformers
